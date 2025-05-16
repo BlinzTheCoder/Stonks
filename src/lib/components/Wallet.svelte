@@ -19,7 +19,6 @@
 		position: fixed;
 		bottom: 1.5rem;
 		right: 1.5rem;
-
 		background-image: radial-gradient(#0f1f0f 1px, transparent 0);
 		background-size: 40px 40px;
 		background-color: #001100;
