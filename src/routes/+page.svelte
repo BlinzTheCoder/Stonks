@@ -48,10 +48,10 @@
 	{/if}
 
 	<div class="fixed top-0 right-0 left-0 flex w-full justify-between bg-white px-4 py-2 shadow">
-		<div class="flex items-center">
+		<button class="flex items-center hover:cursor-pointer hover:underline" onclick={() => (gameState = 'invest')}>
 			<img src="Logo.png" alt="Logo" class="mr-2 h-8 w-12" />
 			<p class="heading">Stonks!</p>
-		</div>
+		</button>
 		<div>
 			<button
 				aria-label="Instructions"
